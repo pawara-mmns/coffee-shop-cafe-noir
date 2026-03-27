@@ -46,6 +46,13 @@ export default function Navbar({ onNavClick }: NavbarProps) {
 						Menu
 					</a>
 					<a
+						href="#gallery"
+						onClick={handleClick('gallery')}
+						className="hover:text-white focus:outline-none focus-visible:ring-2 focus-visible:ring-white/60"
+					>
+						Gallery
+					</a>
+					<a
 						href="#visit"
 						onClick={handleClick('visit')}
 						className="hover:text-white focus:outline-none focus-visible:ring-2 focus-visible:ring-white/60"
